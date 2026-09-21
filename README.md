@@ -134,7 +134,7 @@ The instance count is also validated to ensure a reasonable value.
 `terraform.tfvars.dev`
 
 ```hcl
-aws_region      = "us-east-1"
+aws_region      = "ap-south-1"
 project_name    = "multi-env-demo"
 environment     = "dev"
 instance_type   = "t3.micro"
@@ -155,7 +155,7 @@ Development uses a smaller configuration:
 `terraform.tfvars.prod`
 
 ```hcl
-aws_region      = "us-east-1"
+aws_region      = "ap-south-1"
 project_name    = "multi-env-demo"
 environment     = "prod"
 instance_type   = "t3.small"
